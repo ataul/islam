@@ -15,6 +15,7 @@ $num2 = mysql_num_rows($result);
 if($num2>$limit)
 	$min = $limit;
 else
+	$min = $num2;
 echo '{"success":true,"totalCount":'.$num.',"rows":[';
 $i=0;
 while($ayat = mysql_fetch_object($result)){
@@ -26,7 +27,7 @@ while($ayat = mysql_fetch_object($result)){
 	"para":"'.$ayat->para.'",	
 	"ruku":"'.$ayat->ruku.'"';
 	if($i!=$min-1)
-		echo ',';
+		echo '},';
 	$i++;
 	}
 echo '}]}';
