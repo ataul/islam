@@ -1,0 +1,7 @@
+<?php
+ function quran_install() {
+ 
+ }
+ function quran_uninstall() {
+     
+ }

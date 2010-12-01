@@ -1,0 +1,5 @@
+; $Id:$
+name = Quran
+description = The holy quran in multiple language
+dependencies[] = cck
+core = 6.x
