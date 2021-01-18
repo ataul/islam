@@ -4,4 +4,4 @@ The project is a collection of applications related to islam. Currently two data
 1. Bangla translation
 2. English translation (incomplete)
 
-You can check the release section to download the SQL file.
+You can check the release section to download the SQL file
